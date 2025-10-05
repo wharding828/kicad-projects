@@ -1,0 +1,203 @@
+(footprint "RAPC722X"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RAPC722X")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at -0.375 0.366 0)
+		(layer "F.SilkS")
+		(uuid "1622d855-15bf-48f2-9cff-4244e4cb2906")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "RAPC722X"
+		(at -0.375 0.366 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ac0834b-4920-406c-9469-4c7c374c0ec8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "051b57f2-0f25-4128-9317-a935f0219e23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4414bf5f-39cc-49d1-9e6b-118897a3f173")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 -7.05)
+		(end -4.5 7.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "942d78e4-8431-43e3-8d39-73fd2bbb220d")
+	)
+	(fp_line
+		(start -4.5 -7.05)
+		(end -3.132 -7.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ade3fcb9-c873-4ad4-9485-9b56a0935554")
+	)
+	(fp_line
+		(start -4.5 7.45)
+		(end 4.5 7.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99d0c16a-0fa6-4e12-b199-e36604ba4056")
+	)
+	(fp_line
+		(start 4.5 -7.05)
+		(end 3.115 -7.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bac55a3c-162f-402b-888c-9352c70fa7d1")
+	)
+	(fp_line
+		(start 4.5 -7.05)
+		(end 4.5 -6.057)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "586c7bd4-54c4-4139-97f6-39a1f0a631ce")
+	)
+	(fp_line
+		(start 4.5 7.45)
+		(end 4.5 -0.507)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb3d9751-5d26-4a53-83bb-1ac1f5dd607f")
+	)
+	(fp_line
+		(start -4.5 -7.05)
+		(end 4.5 -7.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4860e94-e088-428f-b7d4-b5f1dc9c7182")
+	)
+	(fp_line
+		(start -4.5 7.45)
+		(end -4.5 -7.05)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bd89efb-370e-461a-88a8-a6b781265c21")
+	)
+	(fp_line
+		(start 4.5 -7.05)
+		(end 4.5 7.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ad5976e-315a-44bd-bffa-7b4d48f30caa")
+	)
+	(fp_line
+		(start 4.5 7.45)
+		(end -4.5 7.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7900a8df-d40a-44d1-ab83-315b8261cb21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.375 0.366 0)
+		(layer "F.Fab")
+		(uuid "70a453e0-a86b-4f67-b95e-86a8878f90d2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 4.8 -3.25)
+		(size 4.6 4.6)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "493fed69-69d6-4c80-8df8-cea9f98bb205")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 4.6 4.6)
+		(drill 3.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7c3fbabb-6dfd-40f2-b6f8-da00ebaba4d4")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -6.25)
+		(size 5.36 5.36)
+		(drill 3.56)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c1c70bb-c1f4-477a-b3c3-64e0ea11d374")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODELS}/RAPC722X.stp"
+		(offset
+			(xyz -0.04999999999 7.059999837 5.400000014)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)
