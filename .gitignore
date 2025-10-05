@@ -1,0 +1,57 @@
+# ---------------------------------------------------------
+# KiCad v9 .gitignore
+# Keeps project files, ignores backups/caches/exports
+# ---------------------------------------------------------
+
+# KiCad project files to keep:
+#   *.kicad_pro  (Project)
+#   *.kicad_sch  (Schematics)
+#   *.kicad_pcb  (PCB Layout)
+#   *.kicad_sym  (Symbol libraries you made)
+#   *.kicad_mod  (Footprint libraries you made)
+
+# ---------------------------------------------------------
+# Backups and autosaves
+# ---------------------------------------------------------
+*-backups/             # KiCad creates a <project>-backups folder
+*.kicad_pcb-bak        # PCB backups
+*.kicad_sch-bak        # Schematic backups
+*.bak                  # Generic backups
+*.tmp                  # Temporary files
+
+# ---------------------------------------------------------
+# User-specific / session files
+# ---------------------------------------------------------
+*.kicad_prl            # Project local settings (not portable)
+fp-info-cache          # Footprint cache
+sym-lib-table          # Global symbol lib table
+fp-lib-table           # Global footprint lib table
+
+# ---------------------------------------------------------
+# Export / generated files
+# ---------------------------------------------------------
+*.net                  # Netlist export
+*.xml                  # BOM export
+*.csv                  # Exported CSVs
+*.html                 # Exported HTML reports
+*.pdf                  # Generated PDFs (schematic/PCB prints)
+
+# ---------------------------------------------------------
+# Manufacturing / output data
+# ---------------------------------------------------------
+*.dcm                  # Legacy symbol info
+*.dsn                  # Specctra DSN files
+*.ses                  # Specctra session files
+*.pos                  # Position files
+*.step                 # STEP exports (keep only if custom)
+*.stp                  # 3D model exports
+*.wrl                  # VRML exports
+*.gbr                  # Gerbers
+*.drl                  # Drill files
+*.zip                  # Zipped fabrication packages
+
+# ---------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------
+.DS_Store
+Thumbs.db
